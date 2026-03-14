@@ -4,11 +4,12 @@ export default function Users({fetchUser}) {
 
 
     const users = use(fetchUser);
-    console.log(users);
+    // console.log(users);
     
     return (
         <div className="card">
             <h2>User: {users.length} </h2>
+            
         </div>
 
     )
